@@ -60,47 +60,49 @@ curl -fsSL https://raw.githubusercontent.com/izyouna/Potch.update/main/install.s
 
 ## 🖼️ UI Showcase & Features
 
-### 🏝️ 1. Dynamic Notch & Mascot Companion ("Mochi")
-A sleek, obsidian island seamlessly hugging the physical MacBook display notch with fluid spring animations and an interactive mascot companion that looks and responds to your cursor in real time.
+These screenshots were captured directly from the running Potch app. The island is shown on an external display in floating mode; on a MacBook, it sits around the physical notch.
+
+### 🎵 1. Now Playing & Mascot Companion
+Your music, playback controls, and Mochi together in one compact island.
 
 <p align="center">
-  <img src="assets/potch_island_hero.png" alt="Potch Dynamic Notch & Companion" width="100%" />
+  <img src="assets/potch_island_hero.png" alt="Actual Potch app playing Just One More Drink -- Jazz Noir by Tom’s Jazz Lounge, with artwork, timeline, pause button, and Mochi" width="400" />
 </p>
 
-- **1px Overflow Edge Trick:** Perfectly conceals the physical boundary between display bezel and screen pixels.
-- **Concave Shoulders:** Elegant 12pt curved contours naturally blend the notch into the macOS menu bar.
-- **4 Dynamic Glow Modes:** Radiates real-time ambient lighting around the notch — Album Aura, Ambient White, Aurora Breathing, or Custom Hex Accent.
-- **Interactive Companion Mochi:** Adorable desk mascot with responsive eye-gaze tracking and custom outfits.
+*Captured during live playback of “Just One More Drink -- Jazz Noir” by Tom’s Jazz Lounge.*
+
+- **Live track information:** Album artwork, track title, artist, elapsed time, and remaining time from active playback.
+- **Playback controls:** Shuffle, previous track, play/pause, next track, and volume access.
+- **Mochi companion:** The mascot appears beside your music.
 
 ---
 
 ### 📱 2. Multi-Widget Ecosystem & Activity Cards
-Expand the island downwards with a single click or hover to reveal a suite of multi-purpose activity tools and playback controls in one unified liquid glass interface.
+Open Widgets to browse Potch’s tools from the island. The screenshot below shows the actual widget launcher, with Calendar and Weather visible and more tools available by scrolling.
 
 <p align="center">
-  <img src="assets/potch_widgets_expanded.png" alt="Potch Multi-Widget Ecosystem & Now Playing" width="100%" />
+  <img src="assets/potch_widgets_expanded.png" alt="Actual Potch Widgets launcher showing Calendar and Weather cards" width="440" />
 </p>
 
-- 🎵 **Now Playing & Lyrics:** High-fidelity album artwork, live 20-band FFT audio visualizer, scrub bar, and AirPlay output switcher for Apple Music and Spotify.
-- 📅 **Calendar & Schedule:** Full monthly overview with upcoming event timeline and instant calendar sync.
-- ☀️ **Weather Forecast:** Atmospheric animations, hourly forecasts, and 5-day temperature range radar.
-- ⏱️ **Focus Timer:** Minimalist Pomodoro and countdown timer with audible bell alerts.
-- 🪞 **Camera Mirror:** Front camera mirror with high-pass skin smoothing and screen rim light for low-light calls.
-- 🔋 **Battery & Devices:** Real-time battery status for your Mac, left/right AirPods, charging case, and wireless peripherals.
-- 📋 **Clipboard History:** Quick access to your last 20 copied clips with drag-and-drop instant paste.
+- 📅 **Calendar** and ☀️ **Weather**
+- ⏱️ **Timer** and 🪞 **Camera Mirror**
+- 🔋 **Battery & Devices** and 📋 **Clipboard History**
+- 🎶 **Song Recognition**, **Apps**, and **Activity**
 
 ---
 
 ### 🪟 3. Native Liquid Glass Settings
-Comprehensive settings panel spanning 12 distinct categories, engineered strictly with native macOS SwiftUI components and translucent Liquid Glass materials.
+Personalize Potch in its native macOS Settings window. This is the running app’s General page, showing its theme, glass background, icon preview, and sound controls.
 
 <p align="center">
-  <img src="assets/potch_settings.png" alt="Potch Settings Window" width="85%" />
+  <img src="assets/potch_settings.png" alt="Actual Potch General Settings window with dark theme, Liquid Glass background, eight color themes, icon preview, and sound controls" width="760" />
 </p>
 
 - **8 Glass Color Themes:** Colorful, Silver, Blush, Sunset, Indigo, Graphite, Emerald, and Midnight.
-- **Mascot Wardrobe:** Accessorize Mochi with custom hats, glasses, headphones, and seasonal outfits.
-- **Precision Lighting & Audio Controls:** Tailor glow speed, brightness, blur clarity, and 9 distinct UI sound events.
+- **Window appearance:** Dark, Light, or System, with a Liquid Glass background toggle.
+- **Sound & feedback:** Sound effects, volume, and trackpad feedback controls.
+
+Settings sections marked **Soon** are still under development.
 
 ---
 
