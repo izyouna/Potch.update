@@ -1,41 +1,40 @@
 # Potch Distribution & Auto-Update Center 🏝️
 
-คลังดาวน์โหลดตัวติดตั้งและระบบปล่อยอัปเดตอัตโนมัติ (Sparkle Auto-Update Feed) สำหรับ **Potch** — Dynamic Island บน macOS
+คลังดาวน์โหลดตัวติดตั้งและระบบปล่อยอัปเดตอัตโนมัติ สำหรับ **Potch** — Dynamic Island บน macOS
 
 ---
 
-## 📥 ดาวน์โหลดเวอร์ชันล่าสุด (v1.0.0-beta.1)
+## ⚡️ วิธีติดตั้งที่เร็วและง่ายที่สุด (แนะนำ: คำสั่งเดียวจบ)
+
+เปิดแอป **Terminal** บน Mac แล้วคัดลอกคำสั่งนี้ไปวาง แล้วกด Enter:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/izyouna/Potch.update/main/install.sh | bash
+```
+
+> 💡 **ทำไมวิธีนี้ถึงดีที่สุด?** คำสั่งนี้จะดาวน์โหลด ติดตั้งลง `/Applications`, **ปลดล็อกระบบความปลอดภัย Gatekeeper ให้โดยอัตโนมัติ 100%** และเปิดแอปขึ้นมาให้ทันที โดยที่คุณไม่ต้องเข้าไปกดยืนยันใน System Settings ให้ยุ่งยากเลยครับ!
+
+---
+
+## 📥 ดาวน์โหลดไฟล์ตัวติดตั้งด้วยตนเอง (Manual Download)
 
 | รูปแบบไฟล์ | ลิงก์ดาวน์โหลด | ขนาด | คำอธิบาย |
 | :--- | :--- | :--- | :--- |
-| **Apple Disk Image (.dmg)** | [**Download Potch.dmg**](https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.1.dmg) | ~15 MB | **แนะนำสำหรับผู้ใช้ทั่วไป** (ดับเบิลคลิกแล้วลากลง Applications) |
+| **Apple Disk Image (.dmg)** | [**Download Potch.dmg**](https://github.com/izyouna/Potch.update/raw/main/Potch.dmg) | ~15 MB | ตัวติดตั้งสำหรับลากลง Applications |
 | **Archive (.zip)** | [**Download Potch.zip**](https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.1.zip) | ~14 MB | สำหรับอัปเดตด้วยตนเองหรือระบบ Sparkle |
 
----
-
-## 🚀 วิธีการติดตั้ง (Installation)
-
-1. ดาวน์โหลดไฟล์ [**`Potch.dmg`**](https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.1.dmg)
-2. ดับเบิลคลิกเปิดไฟล์ `.dmg`
-3. ลากไอคอน **`Potch`** ไปวางในโฟลเดอร์ **`Applications`**
-4. เปิดใช้งานแอปจาก Launchpad หรือ Finder
-
-### ⚠️ คำแนะนำสำหรับการเปิดแอปครั้งแรก (macOS Gatekeeper)
-
-เนื่องจากเวอร์ชัน Beta เป็นการ Sign แบบ Self-Signed Developer Certificate:
-- **วิธีที่ 1 (ง่ายที่สุด):** คลิกขวา (Control-click) ที่ `Potch.app` ในโฟลเดอร์ Applications แล้วเลือก **Open (เปิด)** จากนั้นกดยืนยัน Open
-- **วิธีที่ 2 (Terminal):** รันคำสั่งด้านล่างเพื่อปลดล็อก:
-  ```bash
-  xattr -cr /Applications/Potch.app
-  ```
+### 🚀 วิธีการติดตั้งผ่านไฟล์ DMG:
+1. ดาวน์โหลด [**`Potch.dmg`**](https://github.com/izyouna/Potch.update/raw/main/Potch.dmg) แล้วดับเบิลคลิกเปิดไฟล์
+2. ลากไอคอน **`Potch`** ไปวางในโฟลเดอร์ **`Applications`**
+3. **หากเปิดแล้วขึ้นเตือนความปลอดภัย (Apple could not verify):**
+   - **ดับเบิลคลิกที่ไฟล์ `Open Potch (First Time).command`** ที่อยู่ในแผ่น DMG ได้ทันที ตัวสคริปต์จะปลดล็อกและเปิดแอปให้เอง
+   - หรือเข้าไปที่ **System Settings** > **Privacy & Security** > เลื่อนลงมากด **"Open Anyway"**
 
 ---
 
-## 🔄 ระบบอัปเดตอัตโนมัติ (Sparkle Updates)
+## 🔄 ระบบอัปเดตอัตโนมัติ (Sparkle Auto-Update)
 
-Potch รองรับการอัปเดตตัวเองอัตโนมัติผ่าน [Sparkle Framework](https://sparkle-project.org/) โดยอ่านข้อมูลเวอร์ชันและลายเซ็น Ed25519 จาก [`appcast.xml`](https://raw.githubusercontent.com/izyouna/Potch.update/main/appcast.xml):
-- เมื่อมีการปล่อยเวอร์ชันใหม่ ตัวแอปจะแจ้งเตือนให้อัปเดตอัตโนมัติ
-- หรือกดปุ่ม **"Check for Updates"** ในหน้าการตั้งค่า (Settings > About) ได้ตลอดเวลา
+เมื่อติดตั้งลงในเครื่องแล้ว ครั้งต่อไปตัวแอปจะอัปเดตเวอร์ชันใหม่ให้เองผ่านอินเทอร์เน็ตโดยอัตโนมัติ โดยอ่านฟีดจาก [`appcast.xml`](https://raw.githubusercontent.com/izyouna/Potch.update/main/appcast.xml) ผู้ใช้ไม่ต้องเข้ามาดาวน์โหลด DMG ใหม่เองอีกเลยครับ
 
 ---
 
