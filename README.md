@@ -81,7 +81,7 @@ Your music, playback controls, and Mochi together in one compact island.
 Open Widgets to browse Potch’s tools from the island. The screenshot below shows the actual widget launcher, with Calendar and Weather visible and more tools available by scrolling.
 
 <p align="center">
-  <img src="assets/potch_widgets_expanded.png" alt="Actual Potch Widgets launcher showing Calendar and Weather cards" width="440" />
+  <img src="assets/potch_widgets.png" alt="Potch Widgets launcher showing Calendar and Weather cards" width="812" />
 </p>
 
 - 📅 **Calendar** and ☀️ **Weather**
