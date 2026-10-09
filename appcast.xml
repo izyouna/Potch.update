@@ -2,7 +2,7 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Potch Updates</title>
-        <link>https://raw.githubusercontent.com/izyouna/Potch.ui/main/appcast.xml</link>
+        <link>https://raw.githubusercontent.com/izyouna/Potch.update/main/appcast.xml</link>
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
