@@ -2,9 +2,18 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Potch Updates</title>
-        <link>https://raw.githubusercontent.com/izyouna/Potch.update/main/appcast.xml</link>
+        <link>https://raw.githubusercontent.com/izyouna/Potch.ui/main/appcast.xml</link>
         <description>Most recent updates for Potch.</description>
         <language>en</language>
+        <item>
+            <title>1.0.0-beta.2</title>
+            <pubDate>Sat, 10 Oct 2026 04:52:14 +0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.2.zip" length="14535081" type="application/octet-stream" sparkle:edSignature="u2sL0MUeAPsfjP9cQK3PGNdhaf8BSlA7x1fmn0xdVGzAz675YXX8v/j0qW3KD7Bvq/LffCkyxIaFFfN/OAMkDA=="/>
+        </item>
         <item>
             <title>1.0</title>
             <pubDate>Fri, 09 Oct 2026 21:57:05 +0700</pubDate>
