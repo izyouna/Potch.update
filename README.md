@@ -60,16 +60,16 @@ curl -fsSL https://raw.githubusercontent.com/izyouna/Potch.update/main/install.s
 
 ## 🖼️ UI Showcase & Features
 
-These screenshots were captured directly from the running Potch app. The island is shown on an external display in floating mode; on a MacBook, it sits around the physical notch.
+These screenshots were captured directly from the running Potch app. The island adapts to your display, appearing around the MacBook notch or as a floating island on external displays.
 
 ### 🎵 1. Now Playing & Mascot Companion
 Your music, playback controls, and Mochi together in one compact island.
 
 <p align="center">
-  <img src="assets/potch_island_hero.png" alt="Actual Potch app playing Just One More Drink -- Jazz Noir by Tom’s Jazz Lounge, with artwork, timeline, pause button, and Mochi" width="400" />
+  <img src="assets/potch_now_playing.png" alt="Potch during live playback from TheETCband, showing album artwork, elapsed time, progress, playback controls, and Mochi" width="848" />
 </p>
 
-*Captured during live playback of “Just One More Drink -- Jazz Noir” by Tom’s Jazz Lounge.*
+*Captured during live playback from TheETCband.*
 
 - **Live track information:** Album artwork, track title, artist, elapsed time, and remaining time from active playback.
 - **Playback controls:** Shuffle, previous track, play/pause, next track, and volume access.
