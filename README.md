@@ -45,9 +45,15 @@ curl -fsSL https://raw.githubusercontent.com/izyouna/Potch.update/main/install.s
 | **Apple Disk Image** | [**📥 Download Potch.dmg**](https://github.com/izyouna/Potch.update/raw/main/Potch.dmg) | ~15 MB | Standard macOS disk installer with drag-to-Applications |
 
 #### Installation Steps:
-1. Download [**`Potch.dmg`**](https://github.com/izyouna/Potch.update/raw/main/Potch.dmg) and double-click to open.
-2. Drag the **`Potch`** icon into the **`Applications`** folder.
-3. **Double-click `Open Potch (First Time).command`** located inside the disk image. The script will automatically authorize the app with Gatekeeper and launch it immediately.
+1. Download [**`Potch.dmg`**](https://github.com/izyouna/Potch.update/raw/main/Potch.dmg) and open it.
+2. Drag **`Potch`** into your **`Applications`** folder.
+3. Open Potch. If macOS displays *"Apple could not verify “Potch” is free of malware..."*:
+   - **Method A (System Settings — No Terminal):** Go to **System Settings** > **Privacy & Security**, scroll down to **Security**, and click **"Open Anyway"**.
+   - **Method B (Instant 1-second fix in Terminal):**
+     ```bash
+     xattr -cr /Applications/Potch.app
+     ```
+   *(Note: This happens on macOS Sequoia because Potch is independently developed and not yet notarized with a $99/yr Apple certificate. Once opened the first time, it will never ask again.)*
 
 ---
 
