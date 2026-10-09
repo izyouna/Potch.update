@@ -91,21 +91,6 @@ Open Widgets to browse Potch’s tools from the island. The screenshot below sho
 
 ---
 
-### 🪟 3. Native Liquid Glass Settings
-Personalize Potch in its native macOS Settings window. This is the running app’s General page, showing its theme, glass background, icon preview, and sound controls.
-
-<p align="center">
-  <img src="assets/potch_settings.png" alt="Actual Potch General Settings window with dark theme, Liquid Glass background, eight color themes, icon preview, and sound controls" width="760" />
-</p>
-
-- **8 Glass Color Themes:** Colorful, Silver, Blush, Sunset, Indigo, Graphite, Emerald, and Midnight.
-- **Window appearance:** Dark, Light, or System, with a Liquid Glass background toggle.
-- **Sound & feedback:** Sound effects, volume, and trackpad feedback controls.
-
-Settings sections marked **Soon** are still under development.
-
----
-
 ## 💻 System Requirements
 
 - **Operating System:** macOS 15.0 (Sequoia) or later
