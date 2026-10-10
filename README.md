@@ -5,7 +5,7 @@
 <h1 align="center">Potch (Beta Version)</h1>
 
 <p align="center">
-  <strong>The Ultimate Dynamic Island Superapp for macOS</strong><br>
+  <strong>The Ultimate Dynamic Island for macOS</strong><br>
   <em>Transform your MacBook notch into a living, intelligent Dynamic Island with interactive mascot companions, live lyrics & media player, essential widgets, and native Liquid Glass aesthetics.</em>
 </p>
 
