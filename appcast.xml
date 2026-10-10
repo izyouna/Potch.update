@@ -6,6 +6,15 @@
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.4</title>
+            <pubDate>Sat, 10 Oct 2026 08:29:58 +0700</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.4.zip" length="14563444" type="application/octet-stream" sparkle:edSignature="rR/JMbSO6QPjKXMh83A0fkC9HXYpH59JXtkULaiQE1eosNJ4MPnc5n3x9+b/aV6gd8Cu678WSs6NqWAdFkr+AQ=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.3</title>
             <pubDate>Sat, 10 Oct 2026 05:52:03 +0700</pubDate>
             <sparkle:version>3</sparkle:version>
@@ -22,15 +31,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.2.zip" length="14535081" type="application/octet-stream" sparkle:edSignature="u2sL0MUeAPsfjP9cQK3PGNdhaf8BSlA7x1fmn0xdVGzAz675YXX8v/j0qW3KD7Bvq/LffCkyxIaFFfN/OAMkDA=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Fri, 09 Oct 2026 21:57:05 +0700</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0.0-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/izyouna/Potch.update/releases/download/v1.0.0-beta.1/Potch-1.0.0-beta.1.zip" length="14535386" type="application/octet-stream" sparkle:edSignature="pd1PhJmvTHBlAOallF9IJbCfUodNLd5wvPpAKisXnmfBsKOMF3VnIqL9WMHqRaItc2OQMHxvRhfysI6QjtJsCA=="/>
         </item>
     </channel>
 </rss>
