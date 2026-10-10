@@ -2,7 +2,7 @@
   <img src="assets/Logo.svg" alt="Potch Logo" width="120" height="120" />
 </p>
 
-<h1 align="center">Potch</h1>
+<h1 align="center">Potch (Beta Version)</h1>
 
 <p align="center">
   <strong>The Ultimate Dynamic Island Superapp for macOS</strong><br>
@@ -53,7 +53,6 @@ curl -fsSL https://raw.githubusercontent.com/izyouna/Potch.update/main/install.s
      ```bash
      xattr -cr /Applications/Potch.app
      ```
-   *(Note: This happens on macOS Sequoia because Potch is independently developed and not yet notarized with a $99/yr Apple certificate. Once opened the first time, it will never ask again.)*
 
 ---
 
