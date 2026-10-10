@@ -2,7 +2,7 @@
   <img src="assets/Logo.svg" alt="Potch Logo" width="120" height="120" />
 </p>
 
-<h1 align="center">Potch (Beta Version)</h1>
+<h1 align="center">Potch (Beta)</h1>
 
 <p align="center">
   <strong>The Ultimate Dynamic Island for macOS</strong><br>
