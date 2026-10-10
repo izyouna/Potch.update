@@ -99,7 +99,7 @@ Open Widgets to browse Potch’s tools from the island. The screenshot below sho
 ## 💻 System Requirements
 
 - **Operating System:** macOS 15.0 (Sequoia) or later
-- **Architecture:** Apple Silicon (M1 / M2 / M3 / M4 and all Pro / Max / Ultra variants)
+- **Architecture:** Apple Silicon (M1 - M5 and all Pro / Max / Ultra variants)
 - **Permissions:** Accessibility and media access prompts will be requested per feature enabled.
 
 ---
