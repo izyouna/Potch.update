@@ -12,7 +12,7 @@
             <sparkle:shortVersionString>1.0.0-beta.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.5.zip" length="14568022" type="application/octet-stream" sparkle:edSignature="Q3tmYj7/W49QLoSke/MpqNVO9N/y+XbcZTWvWRYOoLGOEdIwBmD7ZboPWn8wvI49rPxuo8PgJaVzc/7wtjkZBA=="/>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.5.zip" length="14568022" type="application/octet-stream" sparkle:edSignature="y10hVWw5NXIuNCI3TAqGQ7kEmK1MnpADpRC6io/XmgRT7cAUtADIpYruvXIIXB64yQaYdfnZb/2IdyvBUZhzDQ=="/>
         </item>
         <item>
             <title>1.0.0-beta.4</title>
