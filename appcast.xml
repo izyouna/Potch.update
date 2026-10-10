@@ -6,13 +6,22 @@
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.5</title>
+            <pubDate>Sat, 10 Oct 2026 18:27:20 +0700</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.5.zip" length="14568022" type="application/octet-stream" sparkle:edSignature="Q3tmYj7/W49QLoSke/MpqNVO9N/y+XbcZTWvWRYOoLGOEdIwBmD7ZboPWn8wvI49rPxuo8PgJaVzc/7wtjkZBA=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.4</title>
             <pubDate>Sat, 10 Oct 2026 08:29:58 +0700</pubDate>
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.0-beta.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.4.zip" length="14563416" type="application/octet-stream" sparkle:edSignature="Tnyh+2F/fgYrngpYdspWO3X649wsliJ7D+v+BcA5i++9IQ7PXhivLQplGS1agHL1VVvHGkKMUZMsjoXpugZbAA=="/>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.5.zip" length="14568017" type="application/octet-stream" sparkle:edSignature="YhFqMbHW3n1X8u05ICLZDzrx9wT1hDfn9hxeJhDYKNY0Wq40gvMvvbPjsD+NkVAFVkAjni1YPhMWLcZsnghCAg=="/>
         </item>
         <item>
             <title>1.0.0-beta.3</title>
@@ -22,15 +31,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.3.zip" length="14544971" type="application/octet-stream" sparkle:edSignature="JnZRXMlY5VzfK3QTYN6CbMoMmORaZMc0JkAtjEoiarxxoe2xy8CfFU4hmUCRiw2UPe3XG7e7KnbANGyi8knUDw=="/>
-        </item>
-        <item>
-            <title>1.0.0-beta.2</title>
-            <pubDate>Sat, 10 Oct 2026 04:52:14 +0700</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.0-beta.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.2.zip" length="14535081" type="application/octet-stream" sparkle:edSignature="u2sL0MUeAPsfjP9cQK3PGNdhaf8BSlA7x1fmn0xdVGzAz675YXX8v/j0qW3KD7Bvq/LffCkyxIaFFfN/OAMkDA=="/>
         </item>
     </channel>
 </rss>
