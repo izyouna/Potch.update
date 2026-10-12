@@ -6,6 +6,36 @@
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.9</title>
+            <pubDate>Tue, 13 Oct 2026 02:27:08 +0700</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
+  h1 { font-size: 22px; line-height: 1.3; }
+  h2 { font-size: 16px; margin-top: 24px; }
+  li { margin-bottom: 8px; }
+</style>
+<h1>มีอะไรใหม่ใน Potch / What’s new</h1>
+<p>สรุปสิ่งที่เปลี่ยนแปลงในอัปเดตนี้ ก่อนติดตั้งเวอร์ชันใหม่</p>
+<h2>ฟีเจอร์ใหม่ & แบรนดิ้ง / New & Branding</h2>
+<ul>
+  <li>โลโก้และไอคอนแอปใหม่แบบ Crisp Pixel Art คมชัดระดับพิกเซลสมบูรณ์แบบ ทั้งในแอป, Dock และ Finder<br>All-new crisp pixel art branding and app icon across the app, Dock, and Finder.</li>
+</ul>
+<h2>ปรับปรุง / Improvements</h2>
+<ul>
+  <li>ปรับปรุงความคมชัดของ Vector SVG และชุดภาพใน Assets Catalog ทุกขนาด<br>Refined vector SVG assets and full-resolution asset catalog sets.</li>
+  <li>อ่านสรุปการอัปเดตได้ในหน้าต่างอัปเดตก่อนกดติดตั้ง<br>Read the update summary before choosing to install.</li>
+  <li>พรีวิว Welcome Light Sweep ได้จาก Settings พร้อมปุ่มเล่นซ้ำ<br>Preview and replay the Welcome Light Sweep in Settings.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.9.zip" length="12009226" type="application/octet-stream" sparkle:edSignature="q/qTEly1YF4rlb9/LiWaZWIr9fOD/iIz42vO56RLx/OCogAEFQZ0rJzH8OVZV9Stf5rIvWpIeB/euwCEi8SXCQ=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.8</title>
             <pubDate>Mon, 12 Oct 2026 17:52:18 +0700</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -44,15 +74,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.7.zip" length="14748003" type="application/octet-stream" sparkle:edSignature="iChK7HLhVX3dAt7NVjfbPorNRxzNb0kRZ71kqU5OARMG3aSIpMQBrADjogg5mGmgefvY2opDKCDThM4NE4ojCA=="/>
-        </item>
-        <item>
-            <title>1.0.0-beta.6</title>
-            <pubDate>Sat, 10 Oct 2026 19:25:02 +0700</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.0-beta.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.6.zip" length="14734611" type="application/octet-stream" sparkle:edSignature="CkpFUl6m5K6rmZtbmq2UUce1aHt9TmsyOmkrotvtoUcD8/8Zu7S4s/FiLdagjos2tsBJuhKBaKjgn2a83E2KAg=="/>
         </item>
     </channel>
 </rss>
