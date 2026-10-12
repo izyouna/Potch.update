@@ -6,6 +6,37 @@
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.8</title>
+            <pubDate>Mon, 12 Oct 2026 17:52:18 +0700</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
+  h1 { font-size: 22px; line-height: 1.3; }
+  h2 { font-size: 16px; margin-top: 24px; }
+  li { margin-bottom: 8px; }
+</style>
+<h1>มีอะไรใหม่ใน Potch / What’s new</h1>
+<p>สรุปสิ่งที่เปลี่ยนแปลงในอัปเดตนี้ ก่อนติดตั้งเวอร์ชันใหม่</p>
+<h2>ฟีเจอร์ใหม่ / New</h2>
+<ul>
+  <li>อ่านสรุปการอัปเดตได้ในหน้าต่างอัปเดตก่อนกดติดตั้ง<br>Read the update summary before choosing to install.</li>
+  <li>พรีวิว Welcome Light Sweep ได้จาก Settings พร้อมปุ่มเล่นซ้ำ<br>Preview and replay the Welcome Light Sweep in Settings.</li>
+</ul>
+<h2>ปรับปรุง / Improvements</h2>
+<ul>
+  <li>ปรับหน้า Report Bug ให้กรอกข้อมูลสะดวกขึ้น และเปิดร่างรายงานใน Gmail<br>Improved the Report Bug form and Gmail draft flow.</li>
+  <li>ย้าย Settings ไปไว้รายการแรกในเมนูบาร์<br>Settings now appears first in the menu bar menu.</li>
+  <li>ซ่อนตัวเลือก Opening Effect Style เมื่อปิด Opening Flourish Effect<br>Opening effect options stay hidden while the effect is off.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.8.zip" length="14818819" type="application/octet-stream" sparkle:edSignature="cY38XyDJn4bk/SsC/Sw9JWEBZhmX0RxsLanOZMk7RwgABWHk9m3EsmvpTK38OpqrYD74PAkYYbrECBrjjPghBg=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.7</title>
             <pubDate>Sat, 10 Oct 2026 23:28:23 +0700</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -22,15 +53,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.6.zip" length="14734611" type="application/octet-stream" sparkle:edSignature="CkpFUl6m5K6rmZtbmq2UUce1aHt9TmsyOmkrotvtoUcD8/8Zu7S4s/FiLdagjos2tsBJuhKBaKjgn2a83E2KAg=="/>
-        </item>
-        <item>
-            <title>1.0.0-beta.5</title>
-            <pubDate>Sat, 10 Oct 2026 18:27:20 +0700</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.0-beta.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.5.zip" length="14568022" type="application/octet-stream" sparkle:edSignature="y10hVWw5NXIuNCI3TAqGQ7kEmK1MnpADpRC6io/XmgRT7cAUtADIpYruvXIIXB64yQaYdfnZb/2IdyvBUZhzDQ=="/>
         </item>
     </channel>
 </rss>
