@@ -6,6 +6,31 @@
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.12</title>
+            <pubDate>Fri, 16 Oct 2026 18:29:52 +0700</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
+  h1 { font-size: 22px; line-height: 1.3; }
+  h2 { font-size: 16px; margin-top: 24px; }
+  li { margin-bottom: 8px; }
+</style>
+<h1>Potch Beta 12</h1>
+<ul>
+  <li>เพิ่ม checklist สิทธิ์และปุ่มขอเข้าถึงในหน้า General<br>Added a permission checklist and access request buttons in General.</li>
+  <li>ปรับ meter ให้รับเสียงระบบโดยไม่แชร์หน้าจอ พร้อมเลือกใช้ไมโครโฟนได้<br>The audio meter now captures system audio without screen sharing, with a microphone option.</li>
+  <li>เพิ่มปุ่มทดสอบเสียง และแก้ปัญหาการจับเสียงไม่ทำงาน<br>Added an audio test and fixed audio capture failures.</li>
+</ul>
+<p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นมาช่วยพัฒนาแอปครับ<br>Thank you for trying Potch and sharing feedback to help us improve.</p>
+]]></description>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.12.zip" length="13161753" type="application/octet-stream" sparkle:edSignature="XGC0jB1eo2XXhLYksEuWZwX+smylwDACliqgTMd+j0s034cNrB4cjO3xHpefh5UJsLL8u/lE53Ih0mgQEKMbDg=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.11</title>
             <pubDate>Fri, 16 Oct 2026 17:53:41 +0700</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -56,36 +81,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.10.zip" length="12010830" type="application/octet-stream" sparkle:edSignature="w3uT8y+f4ZG0yGnrj+8QYu2rcDUQ8FOaZIizkm/HnO5FB9XQKI+Y2P7mVsqvzo9+3T1lo1vFMAzTwojA+FUaAw=="/>
-        </item>
-        <item>
-            <title>1.0.0-beta.9</title>
-            <pubDate>Tue, 13 Oct 2026 02:27:08 +0700</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.0.0-beta.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<meta charset="utf-8">
-<style>
-  :root { color-scheme: light dark; }
-  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
-  h1 { font-size: 22px; line-height: 1.3; }
-  h2 { font-size: 16px; margin-top: 24px; }
-  li { margin-bottom: 8px; }
-</style>
-<h1>มีอะไรใหม่ใน Potch / What’s new</h1>
-<p>สรุปสิ่งที่เปลี่ยนแปลงในอัปเดตนี้ ก่อนติดตั้งเวอร์ชันใหม่</p>
-<h2>ฟีเจอร์ใหม่ & แบรนดิ้ง / New & Branding</h2>
-<ul>
-  <li>โลโก้และไอคอนแอปใหม่แบบ Crisp Pixel Art คมชัดระดับพิกเซลสมบูรณ์แบบ ทั้งในแอป, Dock และ Finder<br>All-new crisp pixel art branding and app icon across the app, Dock, and Finder.</li>
-</ul>
-<h2>ปรับปรุง / Improvements</h2>
-<ul>
-  <li>ปรับปรุงความคมชัดของ Vector SVG และชุดภาพใน Assets Catalog ทุกขนาด<br>Refined vector SVG assets and full-resolution asset catalog sets.</li>
-  <li>อ่านสรุปการอัปเดตได้ในหน้าต่างอัปเดตก่อนกดติดตั้ง<br>Read the update summary before choosing to install.</li>
-  <li>พรีวิว Welcome Light Sweep ได้จาก Settings พร้อมปุ่มเล่นซ้ำ<br>Preview and replay the Welcome Light Sweep in Settings.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.9.zip" length="12160209" type="application/octet-stream" sparkle:edSignature="ABZMpgoexizqw/aGLxT7YXgPkrcqoDp1FN2hEkS1Ax0Q054PznZyEmbFPv+GFYjEZ9Z2DHMVbdeYcK7q8UZpCA=="/>
         </item>
     </channel>
 </rss>
