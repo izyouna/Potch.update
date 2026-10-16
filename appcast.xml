@@ -6,6 +6,29 @@
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.13</title>
+            <pubDate>Fri, 16 Oct 2026 18:39:03 +0700</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
+  h1 { font-size: 22px; line-height: 1.3; }
+  h2 { font-size: 16px; margin-top: 24px; }
+  li { margin-bottom: 8px; }
+</style>
+<h1>Potch Beta 13</h1>
+<ul>
+  <li>ล็อกขนาดหน้าต่าง Settings เพื่อป้องกันการลากขยายหรือย่อโดยไม่ตั้งใจ<br>Locked the Settings window size to prevent accidental resizing.</li>
+</ul>
+<p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นมาช่วยพัฒนาแอปครับ<br>Thank you for trying Potch and sharing feedback to help us improve.</p>
+]]></description>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.13.zip" length="13162906" type="application/octet-stream" sparkle:edSignature="3p6JCFhUfAJyo2w2Ei46NNreyWqFooXWTzROAaIpJZQODxy/KPEymm1j7agHopH6IHBfIKkaLcQNdwy0pwsMBw=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.12</title>
             <pubDate>Fri, 16 Oct 2026 18:29:52 +0700</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -56,31 +79,6 @@
 <p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นมาช่วยพัฒนาแอปครับ<br>Thank you for trying Potch and sharing feedback to help us improve.</p>
 ]]></description>
             <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.11.zip" length="13052555" type="application/octet-stream" sparkle:edSignature="32hSWwg0Ajytdke3/rTfw5JiXyd0W//nlwDKS2Lzsg4WtXsXw8TVjeBi6xe3WHv2mrQpRmBf9jGN6fIzMft2Aw=="/>
-        </item>
-        <item>
-            <title>1.0.0-beta.10</title>
-            <pubDate>Tue, 13 Oct 2026 05:56:24 +0700</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.0.0-beta.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<meta charset="utf-8">
-<style>
-  :root { color-scheme: light dark; }
-  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
-  h1 { font-size: 22px; line-height: 1.3; }
-  h2 { font-size: 16px; margin-top: 24px; }
-  li { margin-bottom: 8px; }
-</style>
-<h1>Potch 1.0.0-beta.10</h1>
-<p>ปรับไอคอนแอปให้เต็มขอบบน macOS / Full-bleed app icon for macOS.</p>
-<h2>แก้ไข / Fixes</h2>
-<ul>
-  <li>ลบระยะโปร่งใสรอบไอคอน เพื่อให้ภาพเต็มขอบและไม่มีกรอบเทากว้างซ้อนใน Finder และ Quick Look<br>Removed transparent padding so the artwork fills the icon without a wide gray frame in Finder and Quick Look.</li>
-  <li>คงลาย Buddy โน้ตดนตรี และแมวเดิม พร้อมปรับไอคอนครบทุกขนาด<br>Preserved the Buddy, music notes, and cat artwork across all icon sizes.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.10.zip" length="12010830" type="application/octet-stream" sparkle:edSignature="w3uT8y+f4ZG0yGnrj+8QYu2rcDUQ8FOaZIizkm/HnO5FB9XQKI+Y2P7mVsqvzo9+3T1lo1vFMAzTwojA+FUaAw=="/>
         </item>
     </channel>
 </rss>
