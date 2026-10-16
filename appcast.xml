@@ -6,6 +6,32 @@
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.14</title>
+            <pubDate>Fri, 16 Oct 2026 23:20:57 +0700</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
+  h1 { font-size: 22px; line-height: 1.3; }
+  h2 { font-size: 16px; margin-top: 24px; }
+  li { margin-bottom: 8px; }
+</style>
+<h1>Potch Beta 14</h1>
+<ul>
+  <li>ลดงานซ้ำเบื้องหลังและป้องกัน Media helper ค้างหลังปิดแอป<br>Reduced redundant background work and cleaned up the media helper when quitting.</li>
+  <li>สถานะสิทธิ์ใน Settings อัปเดตสดและตามทันเมื่อกลับจาก System Settings<br>Permission status updates live in Settings and refreshes when returning from System Settings.</li>
+  <li>ปรับกระจกให้เลือกความใสแยกแต่ละโหมด พร้อมแก้การรับคลิกของ Settings แบบ Clear<br>Added separate clarity controls for glass finishes and fixed click handling in Clear Settings.</li>
+  <li>ขยายสัญลักษณ์ Play/Pause ให้มองเห็นง่ายขึ้น<br>Made the Play/Pause symbol easier to see.</li>
+</ul>
+<p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นมาช่วยพัฒนาแอปครับ<br>Thank you for trying Potch and sharing feedback to help us improve.</p>
+]]></description>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.14.zip" length="13224017" type="application/octet-stream" sparkle:edSignature="rp/u1ikMzaPybQ9DsNuzAYpmXb8ZFcCW+GgIWxk18EXtlg5BjVeTJaKPDOEH3a8Uja28RdLNtEVHpbpTijWfCw=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.13</title>
             <pubDate>Fri, 16 Oct 2026 18:39:03 +0700</pubDate>
             <sparkle:version>13</sparkle:version>
@@ -52,33 +78,6 @@
 <p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นมาช่วยพัฒนาแอปครับ<br>Thank you for trying Potch and sharing feedback to help us improve.</p>
 ]]></description>
             <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.12.zip" length="13161753" type="application/octet-stream" sparkle:edSignature="XGC0jB1eo2XXhLYksEuWZwX+smylwDACliqgTMd+j0s034cNrB4cjO3xHpefh5UJsLL8u/lE53Ih0mgQEKMbDg=="/>
-        </item>
-        <item>
-            <title>1.0.0-beta.11</title>
-            <pubDate>Fri, 16 Oct 2026 17:53:41 +0700</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.0.0-beta.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<meta charset="utf-8">
-<style>
-  :root { color-scheme: light dark; }
-  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
-  h1 { font-size: 22px; line-height: 1.3; }
-  h2 { font-size: 16px; margin-top: 24px; }
-  li { margin-bottom: 8px; }
-</style>
-<h1>Potch Beta 11</h1>
-<ul>
-  <li>ปรับหน้าตาและการควบคุม Media พร้อมแก้เกาะหุบขณะใช้เมนู<br>Refined media controls and fixed the island collapsing while using menus.</li>
-  <li>เพิ่มภาษาไทยและอังกฤษ สลับภาษาได้ทันที<br>Added Thai and English with instant language switching.</li>
-  <li>เพิ่มกระจก Frosted, Smoked และ Clear พร้อมปรับเงา สี และขอบได้<br>Added Frosted, Smoked, and Clear glass styles with shadow, tint, and border controls.</li>
-  <li>ปรับ Settings ให้ใช้งานลื่นขึ้น และเพิ่มการแก้ไขหรือลบแอปใน Quick Launch<br>Refined Settings interactions and added editing and removal of Quick Launch apps.</li>
-  <li>ลดงานประมวลผลซ้ำและการใช้หน่วยความจำ พร้อมแสดงสถานะ Beta Unlimited<br>Reduced redundant processing and memory use, and clarified Beta Unlimited status.</li>
-</ul>
-<p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นมาช่วยพัฒนาแอปครับ<br>Thank you for trying Potch and sharing feedback to help us improve.</p>
-]]></description>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.11.zip" length="13052555" type="application/octet-stream" sparkle:edSignature="32hSWwg0Ajytdke3/rTfw5JiXyd0W//nlwDKS2Lzsg4WtXsXw8TVjeBi6xe3WHv2mrQpRmBf9jGN6fIzMft2Aw=="/>
         </item>
     </channel>
 </rss>
