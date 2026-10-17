@@ -6,6 +6,30 @@
         <description>Most recent updates for Potch.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.17</title>
+            <pubDate>Sat, 17 Oct 2026 21:03:28 +0700</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<meta charset="utf-8">
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
+  h1 { font-size: 22px; line-height: 1.3; }
+  h2 { font-size: 16px; margin-top: 24px; }
+  li { margin-bottom: 8px; }
+</style>
+<h1>Potch Beta 17</h1>
+<ul>
+  <li>ปรับการอ้างอิงไอคอนแอปให้ใช้ชุดเต็มกรอบชื่อใหม่ตรงกัน<br>Updated app icon references to use the same newly named full-frame icon set.</li>
+  <li>ตรวจแพ็กเกจเพื่อป้องกันไฟล์ไอคอนเก่าปะปนในการอัปเดต<br>Added package checks to prevent old icon resources from being included in updates.</li>
+</ul>
+<p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นครับ<br>Thank you for trying Potch and sharing your feedback.</p>
+]]></description>
+            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.17.zip" length="13222751" type="application/octet-stream" sparkle:edSignature="wd6QOVbKGX5K0pl/TgPyzPBEUKddJxGIgPoU7I9UnoFP38w0ROYIDlFLEvJ/AdUHOJa9iuVHzCAaEI/2mQ3yDA=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.16</title>
             <pubDate>Sat, 17 Oct 2026 20:23:24 +0700</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -53,32 +77,6 @@
 <p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นมาช่วยพัฒนาแอปครับ<br>Thank you for trying Potch and sharing feedback to help us improve.</p>
 ]]></description>
             <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.15.zip" length="13223553" type="application/octet-stream" sparkle:edSignature="YEFu85kKaEg9Tj0/WO2NF7gofhcSWKZHor0LBmGutCBIp0a0WS0aD4/kgU+0I75YFKzORpxXp9p3ZHW3TqJeAw=="/>
-        </item>
-        <item>
-            <title>1.0.0-beta.14</title>
-            <pubDate>Fri, 16 Oct 2026 23:20:57 +0700</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.0.0-beta.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<meta charset="utf-8">
-<style>
-  :root { color-scheme: light dark; }
-  body { font: 14px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; padding: 12px 18px; }
-  h1 { font-size: 22px; line-height: 1.3; }
-  h2 { font-size: 16px; margin-top: 24px; }
-  li { margin-bottom: 8px; }
-</style>
-<h1>Potch Beta 14</h1>
-<ul>
-  <li>ลดงานซ้ำเบื้องหลังและป้องกัน Media helper ค้างหลังปิดแอป<br>Reduced redundant background work and cleaned up the media helper when quitting.</li>
-  <li>สถานะสิทธิ์ใน Settings อัปเดตสดและตามทันเมื่อกลับจาก System Settings<br>Permission status updates live in Settings and refreshes when returning from System Settings.</li>
-  <li>ปรับกระจกให้เลือกความใสแยกแต่ละโหมด พร้อมแก้การรับคลิกของ Settings แบบ Clear<br>Added separate clarity controls for glass finishes and fixed click handling in Clear Settings.</li>
-  <li>ขยายสัญลักษณ์ Play/Pause ให้มองเห็นง่ายขึ้น<br>Made the Play/Pause symbol easier to see.</li>
-</ul>
-<p>ขอบคุณผู้ใช้ทุกคนที่ทดลองใช้ Potch และส่งความคิดเห็นมาช่วยพัฒนาแอปครับ<br>Thank you for trying Potch and sharing feedback to help us improve.</p>
-]]></description>
-            <enclosure url="https://github.com/izyouna/Potch.update/raw/main/Potch-1.0.0-beta.14.zip" length="13224017" type="application/octet-stream" sparkle:edSignature="rp/u1ikMzaPybQ9DsNuzAYpmXb8ZFcCW+GgIWxk18EXtlg5BjVeTJaKPDOEH3a8Uja28RdLNtEVHpbpTijWfCw=="/>
         </item>
     </channel>
 </rss>
